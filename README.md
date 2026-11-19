@@ -29,3 +29,8 @@ npm test
 npm run lint
 npm run build
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
