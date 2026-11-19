@@ -1,0 +1,43 @@
+@import "@xyflow/react/dist/style.css";
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.react-flow__attribution {
+  background: transparent;
+  color: #444;
+  font-size: 9px;
+}
+
+.react-flow__attribution a {
+  color: #555;
+}
+
+.react-flow__node.selected {
+  outline: none;
+}
+
+.react-flow__controls-button {
+  border-bottom-color: #333 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
