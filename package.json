@@ -1,8 +1,9 @@
 {
-  "name": "yml-workflows",
+  "name": "Confluences",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
+  "homepage": "https://ryannkim327.is-a.dev/confluences",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +11,9 @@
     "lint": "oxlint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b web"
   },
   "dependencies": {
     "@codemirror/lang-javascript": "^6.2.5",
@@ -20,7 +23,7 @@
     "@tailwindcss/vite": "^4.3.5",
     "@uiw/react-codemirror": "^4.25.12",
     "@xyflow/react": "^13.0.2",
-    "lucide-react": "^1.75.0",
+    "lucide-react": "^1.76.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router": "^8.5.2",
@@ -34,8 +37,9 @@
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^5.2.0",
+    "@vitejs/plugin-react": "^6.3.0",
     "babel-plugin-react-compiler": "^1.0.0",
+    "gh-pages": "^6.3.0",
     "oxlint": "^1.94.0",
     "typescript": "~7.0.2",
     "vite": "^8.3.8",
